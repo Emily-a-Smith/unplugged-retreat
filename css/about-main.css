@@ -120,35 +120,32 @@ header nav ul {
 
 /*** MAIN ***/
 
-.hero-area {
+.mission {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
 
-aside {
+.map {
+
+}
+
+.contact-section {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
 
-.features {
+.colm-1 {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
 
-article {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-}
-
-.reviews .content-wrapper {
+.colm-2 {
   display: flex;
   justify-content: center;
   align-items: center;

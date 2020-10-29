@@ -120,35 +120,49 @@ header nav ul {
 
 /*** MAIN ***/
 
-.hero-area {
+.faq {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
 
-aside {
+.faq .content-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
 
-.features {
+.faq .faq-content {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
 
-article {
+.colm-1 {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
 
-.reviews .content-wrapper {
+.colm-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.colm-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.colm-4 {
   display: flex;
   justify-content: center;
   align-items: center;
