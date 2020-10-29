@@ -103,6 +103,15 @@ header .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 0;
+}
+
+header figure {
+
+}
+
+.header-divider {
+  width: 100%;
 }
 
 header nav {
@@ -110,12 +119,14 @@ header nav {
   justify-content: space-around;
   align-items: center;
   flex-flow: row wrap;
+  width: 60%;
 }
 
 header nav ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 30%;
 }
 
 /*** MAIN ***/
@@ -127,6 +138,10 @@ header nav ul {
   flex-flow: row wrap;
 }
 
+.hero-area .content-wrapper {
+
+}
+
 aside {
   display: flex;
   justify-content: center;
@@ -134,11 +149,28 @@ aside {
   flex-flow: row wrap;
 }
 
+aside .content-wrapper {
+
+}
+
+.form-description {
+
+}
+
+.form {
+
+}
+
 .features {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 0;
+}
+
+.features .content-wrapper {
+
 }
 
 article {
@@ -146,6 +178,7 @@ article {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 47%;
 }
 
 .reviews .content-wrapper {
@@ -157,11 +190,21 @@ article {
 
 /*** FOOTER ***/
 
+footer .content-wrapper {
+  width: 55%;
+  margin: 50px 0;
+}
+
+.footer.content {
+
+}
+
 footer .contact {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 0;
 }
 
 footer .social {
