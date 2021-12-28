@@ -83,28 +83,63 @@ textarea {
   resize: vertical;
 }
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+/* ---------------------- Author's custom styles ----------------------- */
 
-/*** FRAMEWORK ***/
+/***  FRAMEWORK  ***/
 
 header footer {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 0;
+  background-color: #202322;
 }
 
-/*** HEADER ***/
+/***  GENERAL Styles  ***/
 
-header .content-wrapper {
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+}
+
+img {
+  width: 100%;
+}
+
+figure {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: row wrap;
   margin: 0;
 }
+
+/*a {
+  color: #e2e3ed;
+  text-decoration: none;
+  text-align: center;
+}*/
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+}
+
+h3,
+h4 {
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+
+}
+
+/***  HEADER  ***/
+
+/*--LOGO--*/
 
 header figure {
 
@@ -122,35 +157,34 @@ header nav {
   width: 60%;
 }
 
-header nav ul {
+header nav ul a {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 30%;
+  color: #e2e3ed;
+  text-decoration: none;
 }
 
-/*** MAIN ***/
+/***  main  ***/
 
-.hero-area {
+.intro {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-image: url("../img/hero.png");
+  background-image: linear-gradient(#71da71, #339966);
+  background-size: cover;
 }
 
-.hero-area .content-wrapper {
-
-}
+/*--FORM--*/
 
 aside {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-}
-
-aside .content-wrapper {
-
 }
 
 .form-description {
@@ -161,16 +195,14 @@ aside .content-wrapper {
 
 }
 
+/*--FEATURES--*/
+
 .features {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
   margin: 0;
-}
-
-.features .content-wrapper {
-
 }
 
 article {
@@ -181,23 +213,16 @@ article {
   width: 47%;
 }
 
-.reviews .content-wrapper {
+/*--REVIEWS--*/
+
+.reviews {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
 
-/*** FOOTER ***/
-
-footer .content-wrapper {
-  width: 55%;
-  margin: 50px 0;
-}
-
-.footer.content {
-
-}
+/***  footer  ***/
 
 footer .contact {
   display: flex;
@@ -207,13 +232,7 @@ footer .contact {
   margin: 0;
 }
 
-footer .social {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-footer .social-icons {
+footer .social-media {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -224,6 +243,7 @@ footer .copyright {
   justify-content: center;
   align-items: center;
 }
+
 
 /* ==========================================================================
    Helper classes
